@@ -10,23 +10,6 @@ namespace ConsoleApp7
     {
         static void Main(string[] args)
         {
-            /*string Name = "";
-            Console.WriteLine("Please enter your name:");
-            Name = Console.ReadLine();
-            if (Name.Length > 10)
-                Console.WriteLine("name must be within 10 characters");
-            else
-                Console.WriteLine("User name: {0}", Name);
-            Console.ReadLine();
-            
-
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine(i);
-            }
-            Console.ReadLine();
-            */
-
             Console.WriteLine("Enter first number");
             double n1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter second number");
@@ -60,5 +43,4 @@ namespace ConsoleApp7
             Console.ReadLine();
         }
     }
-
 }
