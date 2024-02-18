@@ -10,7 +10,7 @@ namespace ConsoleApp20
     {
         static void Main()
         {
-            Console.Write("Enter a digit (1-9): ");
+            Console.WriteLine("Enter a digit (1-9): ");
             char digitChar = Console.ReadKey().KeyChar;
 
             int digit;
